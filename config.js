@@ -79,8 +79,11 @@ const aIMG = [
     "https://cdn.star.nesdis.noaa.gov/GOES16/GLM/SECTOR/can/EXTENT3/GOES16-CAN-EXTENT3-1125x560.gif",
   ],
   [
-    "SATELLITE CGL",
-    "https://cdn.star.nesdis.noaa.gov/GOES16/GLM/SECTOR/cgl/EXTENT3/GOES16-CGL-EXTENT3-600x600.gif",
+    "BUNBURY WEBCAMS",
+    "https://weathercams.airservicesaustralia.com/wp-content/uploads/airports/Bunbury_Airport/Bunbury_Airport_340.jpg",
+    "https://weathercams.airservicesaustralia.com/wp-content/uploads/airports/Bunbury_Airport/Bunbury_Airport_160.jpg",
+    "https://weathercams.airservicesaustralia.com/wp-content/uploads/airports/Bunbury_Airport/Bunbury_Airport_160.jpg",
+    "https://www.transport.wa.gov.au/imarine/coastaldata/coastcam/archivegfx/cammand/0735.jpg",
   ],
   ["GREY LINE", "https://www.timeanddate.com/scripts/sunmap.php?iso=now"],
   [
