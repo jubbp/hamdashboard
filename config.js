@@ -16,18 +16,13 @@ const aURL = [
     "1",
   ],
   ["2196F3", "DX CLUSTER", "https://dxcluster.ha8tks.hu/map/", "1"],
-  [
-    "2196F3",
-    "LIGHTNING",
-    "https://map.blitzortung.org/#5.87/-30.5/117.41",
-    "1",
-    "R",
-  ],
-  ["2196F3", "PISTAR", "http://pi-star.local/", "1.2"],
+  ["2196F3","LIGHTNING","https://map.blitzortung.org/#5.87/-30.5/117.41","1","R",],
+  ["2196F3", "DX LEADERS", "https://www.wiaawards.com/view/DXLeaderboard.php", "1"],
+  ["2196F3", "DX GROUPS", "https://www.wiaawards.com/view/GroupStandings.php", "1"],
   [
     "2196F3",
     "RADAR",
-    "https://weather.gc.ca/?layers=alert,radar&center=43.39961001,-78.53212031&zoom=6&alertTableFilterProv=ON",
+    "http://www.bom.gov.au/products/IDR702.loop.shtml#skip",
     "1",
     "R"
   ],
@@ -60,10 +55,12 @@ const aIMG = [
     "LOCAL RADAR","http://www.bom.gov.au/radar/IDR702.gif"  
   ],
     [
-      "LIGHTNING","http://images.lightningmaps.org/blitzortung/oceania/index.php?map=australia",
+      "LIGHTNING","https://images.lightningmaps.org/blitzortung/oceania/index.php?map=australia_big",
     ],
     [
-      "LIGHTNING LOCAL","https://map.blitzortung.org/index.php?interactive=0&NavigationControl=0&FullScreenControl=0&Cookies=0&InfoDiv=0&MenuButtonDiv=0&ScaleControl=0&LinksCheckboxChecked=1&LinksRangeValue=10&MapStyle=2&MapStyleRangeValue=10&Advertisment=0#6/-33.5/115",
+      "LIGHTNING LOCAL",
+      "https://www.lightningmaps.org/#m=oss;t=3;s=0;o=0;b=;ts=0;z=9;y=-33.9011;x=115.4341;d=2;dl=2;dc=0",
+      "https://map.blitzortung.org/index.php?interactive=0&NavigationControl=0&FullScreenControl=0&Cookies=0&InfoDiv=0&MenuButtonDiv=0&ScaleControl=0&LinksCheckboxChecked=1&LinksRangeValue=10&MapStyle=2&MapStyleRangeValue=10&Advertisment=0#6/-33.5/115",
     ],
   [
     "NOAA D-RAP",
@@ -83,16 +80,23 @@ const aIMG = [
     "https://weathercams.airservicesaustralia.com/wp-content/uploads/airports/Bunbury_Airport/Bunbury_Airport_340.jpg",
     "https://weathercams.airservicesaustralia.com/wp-content/uploads/airports/Bunbury_Airport/Bunbury_Airport_160.jpg",
     "https://weathercams.airservicesaustralia.com/wp-content/uploads/airports/Bunbury_Airport/Bunbury_Airport_160.jpg",
-    "https://www.transport.wa.gov.au/imarine/coastaldata/coastcam/archivegfx/cammand/0735.jpg",
   ],
-  ["GREY LINE", "https://www.timeanddate.com/scripts/sunmap.php?iso=now"],
+  [
+    "GREY LINE", 
+    "https://www.timeanddate.com/scripts/sunmap.php?iso=now"
+  ],
   [
     "WEST HF PROPAGATION",
     "https://www.tvcomm.co.uk/g7izu/Autosave/INDIAN_HF_AutoSave.JPG",
   ],
-  ["EAST HF PROPAGATION", "https://www.tvcomm.co.uk/g7izu/Autosave/PACIFIC_HF_AutoSave.JPG"],
-  ["HF PROPAGATION",
-  "https://www.hamqsl.com/solar101vhf.php",
-  "https://www.hamqsl.com/solar100sc.php",
-  "https://www.hamqsl.com/solarpich.php"],
+  [
+    "EAST HF PROPAGATION", 
+    "https://www.tvcomm.co.uk/g7izu/Autosave/PACIFIC_HF_AutoSave.JPG"
+  ],
+  [
+    "HF PROPAGATION",
+    "https://www.hamqsl.com/solar101vhf.php",
+    "https://www.hamqsl.com/solar100sc.php",
+    "https://www.hamqsl.com/solarpich.php"
+  ],
 ];
